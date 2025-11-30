@@ -1,0 +1,17 @@
+[project]
+name = "better-cursor"
+version = "0.1.0"
+description = "A VS Code-like IDE with LLM Council backend"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
