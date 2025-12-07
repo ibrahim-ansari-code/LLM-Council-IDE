@@ -1,5 +1,7 @@
 # Better Cursor - LLM Council IDE
 
+![Better Cursor](images/better-cursor-image.png)
+
 A VS Code-like IDE powered by an LLM Council (inspired by [Andrej Karpathy's llm-council](https://github.com/karpathy/llm-council)). Instead of using a single LLM, this IDE uses a council of multiple LLMs that review and rank each other's responses, with a Chairman LLM synthesizing the final answer.
 
 ## Features
